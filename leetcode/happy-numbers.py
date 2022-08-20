@@ -1,4 +1,4 @@
-import math
+
 
 class Solution:
     """
@@ -66,6 +66,9 @@ class Solution:
             
             found_numbers.add(sum_power)
             the_string = str(sum_power)
+            
+
+
                 
     def testTask(self) -> bool:
         test_cases = {
