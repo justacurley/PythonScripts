@@ -1,4 +1,4 @@
-# before running, set the FLASK_APP env var to the basename of this file $ENV:FLASK_APP="weight"
+l# before running, set the FLASK_APP env var to the basename of this file $ENV:FLASK_APP="weight"
 from datetime import datetime
 from flask import Flask, render_template, request
 app = Flask(__name__)
