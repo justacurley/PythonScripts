@@ -1,0 +1,26 @@
+# Find the 2nd smallest and 2nd largest numbers in an array.
+# sampleArray = [5, 9, 1, 0, 23, 985, 6, 52, 182, 83112, 3]
+# Cannot use a sort function
+
+# keep track of largest and smallest
+# iterate through array, if current is gt largest, move largest to prevlargest and update largest. Same with smallest. 
+
+$currentLarge = 0
+$currentSmall = 0
+$prevLarge = 0
+$prevSmall = 0
+
+foreach ($num in $sampleArray) {
+    
+    if ($num -gt $currentLarge) {
+        $prevLarge = $currentLarge
+        $currentLarge = $num
+    }
+    elseif (($num -lt $currentSmall) -or ($num -eq 0)) {
+        $prevSmall = $currentSmall
+        $currentSmall = $num
+    }
+}
+
+
+
