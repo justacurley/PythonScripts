@@ -31,8 +31,11 @@ Explanation: There is no cycle in the linked list.
 
 while loop through the LL, check if the current node is already in a set() s, return the node if it is.
 This prompt is absolutely terrible.
+<<<<<<< HEAD
 
 https://leetcode.com/problems/linked-list-cycle-ii/discuss/2399128/Explained-in-Programming-terms-with-Images-Easy-to-Understand
+=======
+>>>>>>> 2ad16a656a93de466c069333da485a3a46e9a6d3
 """
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
